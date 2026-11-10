@@ -1,0 +1,79 @@
+{
+  "experiment_info": {
+    "nama": "Emery Fathan Zwageri",
+    "nim": "13522079",
+    "dataset": "COCO-1000",
+    "num_images": 1000,
+    "confidence_threshold": 0.5,
+    "date": "2026-02-06 12:39:08"
+  },
+  "faster_rcnn": {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "paradigm": "two-stage",
+    "metrics": {
+      "total_tp": 713,
+      "total_fp": 8812,
+      "total_fn": 6553,
+      "precision": 0.07485564304461942,
+      "recall": 0.09812826864849986,
+      "f1_score": 0.08492644869275207
+    },
+    "speed": {
+      "avg_inference_ms": 152.22516059875488,
+      "total_time_s": 152.22516059875488,
+      "fps": 6.569216258775157
+    },
+    "iou_analysis": {
+      "model": "Faster R-CNN",
+      "total_detections": 713,
+      "total_images": 1000,
+      "total_images_with_detections": 518,
+      "mean_iou_per_detection": 0.6755800340847642,
+      "median_iou_per_detection": 0.640154614384734,
+      "mean_iou": 0.35186767129631735,
+      "median_iou": 0.5100038701286891,
+      "std_iou": 0.35101170921726155,
+      "mean_iou_valid_only": 0.6792812187187593,
+      "iou_gt_0.5": 100.0,
+      "iou_gt_0.7": 38.569424964936886,
+      "iou_gt_0.9": 8.415147265077138
+    }
+  },
+  "yolov8": {
+    "model": "yolov8m",
+    "paradigm": "single-stage",
+    "metrics": {
+      "total_tp": 630,
+      "total_fp": 3841,
+      "total_fn": 6636,
+      "precision": 0.1409080742563185,
+      "recall": 0.08670520231213873,
+      "f1_score": 0.1073528158814007
+    },
+    "speed": {
+      "avg_inference_ms": 22.758590936660767,
+      "total_time_s": 22.758590936660767,
+      "fps": 43.93945138269285
+    },
+    "iou_analysis": {
+      "model": "YOLOv8",
+      "total_detections": 630,
+      "total_images": 1000,
+      "total_images_with_detections": 487,
+      "mean_iou_per_detection": 0.6910010018268842,
+      "median_iou_per_detection": 0.6606560893325845,
+      "mean_iou": 0.33775237572780936,
+      "median_iou": 0.0,
+      "std_iou": 0.35903454202611734,
+      "mean_iou_valid_only": 0.6935367058065902,
+      "iou_gt_0.5": 100.0,
+      "iou_gt_0.7": 41.269841269841265,
+      "iou_gt_0.9": 12.222222222222221
+    }
+  },
+  "comparison": {
+    "speed_ratio": 6.6886900433516026,
+    "accuracy_diff_f1": -0.02242636718864864,
+    "iou_diff_per_image": 0.01411529556850799
+  }
+}

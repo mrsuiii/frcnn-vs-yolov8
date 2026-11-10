@@ -1,0 +1,292 @@
+{
+  "baseline": {
+    "frcnn": {
+      "mean_iou": 0.35186767129631735,
+      "precision": 0.07485564304461942,
+      "recall": 0.09812826864849986
+    },
+    "yolo": {
+      "mean_iou": 0.33775237572780936,
+      "precision": 0.1409080742563185,
+      "recall": 0.08670520231213873
+    }
+  },
+  "robustness_results": {
+    "frcnn": {
+      "gaussian_noise": {
+        "1": {
+          "mean_iou": 0.6778503372364938,
+          "precision": 0.07442641298265248,
+          "recall": 0.0910958904109589,
+          "num_detections": 133
+        },
+        "2": {
+          "mean_iou": 0.6782954346527704,
+          "precision": 0.08070388349514564,
+          "recall": 0.0910958904109589,
+          "num_detections": 133
+        },
+        "3": {
+          "mean_iou": 0.6862417419172144,
+          "precision": 0.08829712683952348,
+          "recall": 0.0863013698630137,
+          "num_detections": 126
+        }
+      },
+      "motion_blur": {
+        "1": {
+          "mean_iou": 0.6822098744142093,
+          "precision": 0.08004708652148322,
+          "recall": 0.09315068493150686,
+          "num_detections": 136
+        },
+        "2": {
+          "mean_iou": 0.6746256785028971,
+          "precision": 0.10483870967741936,
+          "recall": 0.08904109589041095,
+          "num_detections": 130
+        },
+        "3": {
+          "mean_iou": 0.6695014981773454,
+          "precision": 0.14510278113663846,
+          "recall": 0.0821917808219178,
+          "num_detections": 120
+        }
+      },
+      "brightness": {
+        "1": {
+          "mean_iou": 0.6853859303227561,
+          "precision": 0.07476139978791092,
+          "recall": 0.09657534246575343,
+          "num_detections": 141
+        },
+        "2": {
+          "mean_iou": 0.6846716907549804,
+          "precision": 0.07349665924276169,
+          "recall": 0.09041095890410959,
+          "num_detections": 132
+        },
+        "3": {
+          "mean_iou": 0.6787671719297351,
+          "precision": 0.08171663727219283,
+          "recall": 0.09520547945205479,
+          "num_detections": 139
+        }
+      },
+      "contrast": {
+        "1": {
+          "mean_iou": 0.6881321572596485,
+          "precision": 0.07345225603357818,
+          "recall": 0.0958904109589041,
+          "num_detections": 140
+        },
+        "2": {
+          "mean_iou": 0.6897107959980368,
+          "precision": 0.07347379794705565,
+          "recall": 0.09315068493150686,
+          "num_detections": 136
+        },
+        "3": {
+          "mean_iou": 0.6881370001752198,
+          "precision": 0.07363420427553444,
+          "recall": 0.08493150684931507,
+          "num_detections": 124
+        }
+      },
+      "jpeg_compression": {
+        "1": {
+          "mean_iou": 0.6825931985179914,
+          "precision": 0.07529948659440959,
+          "recall": 0.09041095890410959,
+          "num_detections": 132
+        },
+        "2": {
+          "mean_iou": 0.682651539511411,
+          "precision": 0.07821590174531351,
+          "recall": 0.08287671232876713,
+          "num_detections": 121
+        },
+        "3": {
+          "mean_iou": 0.6703811783206064,
+          "precision": 0.07411907654921021,
+          "recall": 0.04178082191780822,
+          "num_detections": 61
+        }
+      },
+      "resolution_downscale": {
+        "1": {
+          "mean_iou": 0.6776200362779402,
+          "precision": 0.08481868469575907,
+          "recall": 0.09452054794520548,
+          "num_detections": 138
+        },
+        "2": {
+          "mean_iou": 0.6911867114406814,
+          "precision": 0.10429936305732485,
+          "recall": 0.08972602739726028,
+          "num_detections": 131
+        },
+        "3": {
+          "mean_iou": 0.6861317135348638,
+          "precision": 0.1563380281690141,
+          "recall": 0.07602739726027398,
+          "num_detections": 111
+        }
+      }
+    },
+    "yolo": {
+      "gaussian_noise": {
+        "1": {
+          "mean_iou": 0.6905947449214779,
+          "precision": 0.1351981351981352,
+          "recall": 0.07945205479452055,
+          "num_detections": 116
+        },
+        "2": {
+          "mean_iou": 0.7017921221664781,
+          "precision": 0.15742128935532235,
+          "recall": 0.07191780821917808,
+          "num_detections": 105
+        },
+        "3": {
+          "mean_iou": 0.6867143143856846,
+          "precision": 0.17519685039370078,
+          "recall": 0.06095890410958904,
+          "num_detections": 89
+        }
+      },
+      "motion_blur": {
+        "1": {
+          "mean_iou": 0.6894667980369831,
+          "precision": 0.14303482587064675,
+          "recall": 0.07876712328767123,
+          "num_detections": 115
+        },
+        "2": {
+          "mean_iou": 0.6979642776403842,
+          "precision": 0.18411552346570398,
+          "recall": 0.06986301369863014,
+          "num_detections": 102
+        },
+        "3": {
+          "mean_iou": 0.6959705195578471,
+          "precision": 0.24528301886792453,
+          "recall": 0.05342465753424658,
+          "num_detections": 78
+        }
+      },
+      "brightness": {
+        "1": {
+          "mean_iou": 0.6977078594685233,
+          "precision": 0.1312169312169312,
+          "recall": 0.08493150684931507,
+          "num_detections": 124
+        },
+        "2": {
+          "mean_iou": 0.6968465439190938,
+          "precision": 0.13114754098360656,
+          "recall": 0.0821917808219178,
+          "num_detections": 120
+        },
+        "3": {
+          "mean_iou": 0.6983696666178645,
+          "precision": 0.12723214285714285,
+          "recall": 0.07808219178082192,
+          "num_detections": 114
+        }
+      },
+      "contrast": {
+        "1": {
+          "mean_iou": 0.6973257666328193,
+          "precision": 0.12964930924548354,
+          "recall": 0.08356164383561644,
+          "num_detections": 122
+        },
+        "2": {
+          "mean_iou": 0.697550864766517,
+          "precision": 0.128680479825518,
+          "recall": 0.08082191780821918,
+          "num_detections": 118
+        },
+        "3": {
+          "mean_iou": 0.6943465168524194,
+          "precision": 0.1288888888888889,
+          "recall": 0.07945205479452055,
+          "num_detections": 116
+        }
+      },
+      "jpeg_compression": {
+        "1": {
+          "mean_iou": 0.6976950703458717,
+          "precision": 0.14599483204134367,
+          "recall": 0.0773972602739726,
+          "num_detections": 113
+        },
+        "2": {
+          "mean_iou": 0.6986461472393715,
+          "precision": 0.14803149606299212,
+          "recall": 0.06438356164383562,
+          "num_detections": 94
+        },
+        "3": {
+          "mean_iou": 0.6739524487121538,
+          "precision": 0.1492063492063492,
+          "recall": 0.03219178082191781,
+          "num_detections": 47
+        }
+      },
+      "resolution_downscale": {
+        "1": {
+          "mean_iou": 0.6921379444039618,
+          "precision": 0.14217443249701314,
+          "recall": 0.08150684931506849,
+          "num_detections": 119
+        },
+        "2": {
+          "mean_iou": 0.6971316025052978,
+          "precision": 0.1583710407239819,
+          "recall": 0.07191780821917808,
+          "num_detections": 105
+        },
+        "3": {
+          "mean_iou": 0.6963447311066201,
+          "precision": 0.24825174825174826,
+          "recall": 0.04863013698630137,
+          "num_detections": 71
+        }
+      }
+    }
+  },
+  "edge_case_results": {
+    "small_objects": {
+      "frcnn": {
+        "count": 3,
+        "mean_iou": 0.6543435126492848
+      },
+      "yolo": {
+        "count": 1,
+        "mean_iou": 0.8528743535249306
+      }
+    },
+    "crowded_scenes": {
+      "num_images": 259,
+      "frcnn": {
+        "mean_iou": 0.3356158471755734,
+        "precision": 0.03833185448092281
+      },
+      "yolo": {
+        "mean_iou": 0.31584066343448414,
+        "precision": 0.07825335062689148
+      }
+    },
+    "aspect_ratio_extremes": {}
+  },
+  "summary": {
+    "frcnn_avg_robustness": 0.6818940938302668,
+    "yolo_avg_robustness": 0.694475441071076,
+    "frcnn_robustness_retention": 193.79276627434896,
+    "yolo_robustness_retention": 205.61674498205323,
+    "frcnn_wins": 0,
+    "yolo_wins": 18
+  }
+}

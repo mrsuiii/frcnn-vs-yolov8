@@ -1,0 +1,97 @@
+{
+  "experiment_info": {
+    "nama": "Emery Fathan Zwageri",
+    "nim": "13522079",
+    "dataset": "COCO-1000",
+    "num_images": 1000,
+    "confidence_threshold": 0.5,
+    "date": "2026-02-06 12:50:39"
+  },
+  "faster_rcnn": {
+    "model": "fasterrcnn_resnet50_fpn_v2",
+    "paradigm": "two-stage",
+    "detection_metrics": {
+      "total_tp": 713,
+      "total_fp": 8812,
+      "total_fn": 6553,
+      "precision": 0.07485564304461942,
+      "recall": 0.09812826864849986,
+      "f1_score": 0.08492644869275207
+    },
+    "iou_analysis": {
+      "mean_iou_per_image": 0.35186767129631735,
+      "median_iou_per_image": 0.5100038701286891,
+      "mean_iou_per_detection": 0.6755800340847642,
+      "iou_gt_0.5_pct": 100.0,
+      "iou_gt_0.7_pct": 38.569424964936886,
+      "iou_gt_0.9_pct": 8.415147265077138,
+      "total_matched_detections": 713
+    },
+    "speed": {
+      "avg_inference_ms": 152.22516059875488,
+      "fps": 6.569216258775157,
+      "total_time_s": 152.22516059875488
+    },
+    "iou_by_size": {
+      "small": {
+        "count": 3,
+        "mean_iou": 0.6543435126492848
+      },
+      "medium": {
+        "count": 25,
+        "mean_iou": 0.6706921524463151
+      },
+      "large": {
+        "count": 685,
+        "mean_iou": 0.6758514305888046
+      }
+    }
+  },
+  "yolov8": {
+    "model": "yolov8m",
+    "paradigm": "single-stage",
+    "detection_metrics": {
+      "total_tp": 630,
+      "total_fp": 3841,
+      "total_fn": 6636,
+      "precision": 0.1409080742563185,
+      "recall": 0.08670520231213873,
+      "f1_score": 0.1073528158814007
+    },
+    "iou_analysis": {
+      "mean_iou_per_image": 0.33775237572780936,
+      "median_iou_per_image": 0.0,
+      "mean_iou_per_detection": 0.6910010018268842,
+      "iou_gt_0.5_pct": 100.0,
+      "iou_gt_0.7_pct": 41.269841269841265,
+      "iou_gt_0.9_pct": 12.222222222222221,
+      "total_matched_detections": 630
+    },
+    "speed": {
+      "avg_inference_ms": 22.758590936660767,
+      "fps": 43.93945138269285,
+      "total_time_s": 22.758590936660767
+    },
+    "iou_by_size": {
+      "small": {
+        "count": 1,
+        "mean_iou": 0.8528743535249306
+      },
+      "medium": {
+        "count": 18,
+        "mean_iou": 0.6994074789172173
+      },
+      "large": {
+        "count": 611,
+        "mean_iou": 0.6904884160014766
+      }
+    }
+  },
+  "comparison_summary": {
+    "speed_ratio": 6.6886900433516026,
+    "f1_difference": -0.02242636718864864,
+    "iou_difference": 0.01411529556850799,
+    "winner_f1": "YOLOv8",
+    "winner_iou": "Faster R-CNN"
+  }
+}

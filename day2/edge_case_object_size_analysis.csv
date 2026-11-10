@@ -1,0 +1,5 @@
+edge_case_type,description,frcnn_mean_iou,yolo_mean_iou,frcnn_count,yolo_count,frcnn_precision,yolo_precision,winner,insight
+small_objects,Objects with area < 32x32 pixels,0.6543435126492848,0.8528743535249306,3,1,0.0,0.0,YOLO,Small objects are hardest to detect - tests feature pyramid effectiveness
+crowded_scenes,Images with 10+ objects,0.3356158471755734,0.31584066343448414,259,259,0.03833185448092281,0.07825335062689148,FRCNN,Crowded scenes test occlusion handling and NMS performance
+medium_objects,Objects with area 32x32 to 96x96 pixels,0.6706921524463151,0.6994074789172173,25,18,0.0,0.0,YOLO,Medium objects represent typical detection scenario
+large_objects,Objects with area > 96x96 pixels,0.6758514305888046,0.6904884160014766,685,611,0.0,0.0,YOLO,Large objects should be easiest - tests baseline capability
